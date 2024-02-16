@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #1abc9c;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 80px auto;
+}
+
+.whole{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 8px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.whole .title{
+    background: #16a085;
+    line-height: 80px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px 5px 0 0 ;
+    color: #fff;
+    padding: 0;
+    cursor:default;
+}
+
+.title span{
+    filter: drop-shadow(5px 3px 2px rgba(0, 0, 0, 0.25));
+}
+
+.whole form{
+    padding: 30px 20px 25px 25px;
+}
+
+.whole form .row{
+    height: 45px;
+    margin-bottom: 15px ;
+    position: relative;
+}
+
+.whole form .row input{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0 10px 0 50px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+form .row input:focus{
+    border-color: #16a085;
+    box-shadow: inset 0 0 2px 2px rgb(26, 188, 156, 0.25);
+}
+
+.whole form .row i{
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    background-color: #16a085;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 5px 0 0 5px;
+}
+
+.whole form .botton {
+    margin-top: 30px;
+}
+
+.whole form .botton input{
+    border: none;
+    padding: 0;
+    background: #1abc9c;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.whole form .botton input:hover{
+    background-color: #16a085;
+    border: 2px solid #1abc9c;
+}
+
+.whole form .pass{
+    margin: -8px 0 20px 0;
+    font-size: 15px;
+}
+
+.whole form .pass a{
+    text-decoration: none;
+    color: #067861;
+}
+
+.whole form .pass:hover{
+    text-decoration: underline;
+}
+
+.whole form .signup_link{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.whole form .signup_link a{
+    text-decoration: none;
+    color: #067861;
+}
+
+.whole form .signup_link a:hover{
+    text-decoration: underline;
+}
